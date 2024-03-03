@@ -10,9 +10,20 @@ body {
     background-size: cover; 
     background-attachment: fixed; 
 }
-form {
-    margin-top: 50px;
+h5 {
+    display: inline;
+    font-family:'Courier New', Courier, monospace;
+    margin-inline-end: 1em;
 }
+.fa-brands {
+    font-size:larger;
+    margin-right: 1em;
+
+}
+a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto del elemento padre */
+  }
 .btn {
     margin-top: 2px;
     margin-bottom: 10px;
@@ -29,14 +40,13 @@ form {
 .title-container {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     background-color: #212529;
+    margin-top: 2em;
     padding: 20px;
     border-radius: 8px;
     width: fit-content;
-    
+    border: 3px solid #FCC12D;
 }
-.nav-link  {
-    color: white;
-}
+
 
 header {
     background-color: rgba(255, 255, 255, 0.267); 
@@ -61,6 +71,7 @@ header {
 .fixed-bottom {
     background-color: #212529;
     color: white;
+    font-family:'Courier New', Courier, monospace;
 }
 .row {
     height: 300px;
@@ -94,6 +105,8 @@ header {
     background-color: rgba(18, 18, 19, 0.63);
     height: auto;
     padding-top: 1em;
+    color: #FCC12D;
+    text-align: left;
 }
 #listas ul {
     column-count: 3; /* Define el número de columnas */
